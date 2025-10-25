@@ -1,0 +1,23 @@
+.verse-card {
+  @apply relative w-full max-w-3xl mx-auto rounded-2xl shadow-2xl overflow-hidden;
+}
+
+.verse-backdrop {
+  @apply w-full h-80 md:h-96 object-cover opacity-50;
+}
+
+.verse-content {
+  @apply absolute inset-0 flex flex-col justify-center items-center text-center p-6 md:p-8;
+}
+
+.verse-text {
+  @apply text-lg md:text-xl lg:text-2xl font-serif italic mb-6 drop-shadow-md max-w-full break-words;
+}
+
+.verse-reference {
+  @apply text-base md:text-lg lg:text-xl font-semibold drop-shadow-md;
+}
+
+.backdrop-card {
+  @apply absolute w-full max-w-4xl mx-auto rounded-2xl bg-white bg-opacity-80 backdrop-blur-[2px] shadow-xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-[calc(100%-4rem)] md:h-[calc(100%-6rem)];
+}
